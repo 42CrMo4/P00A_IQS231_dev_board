@@ -869,7 +869,7 @@
     (uuid 21269fcb-7287-4e55-91c9-34cf82a47837)
     (property "Reference" "U1" (id 0) (at 147.955 66.04 0))
     (property "Value" "IQS231A-00000000-TSR" (id 1) (at 147.955 68.58 0))
-    (property "Footprint" "IQS231A-00000000-TSR:SOT95P280X100-6N" (id 2) (at 147.955 81.28 0)
+    (property "Footprint" "Sensor_Touch_custom:SOT95P280X100-6N" (id 2) (at 147.955 81.28 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 147.955 81.28 0)
@@ -1264,7 +1264,7 @@
       (reference "R4") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/21269fcb-7287-4e55-91c9-34cf82a47837"
-      (reference "U1") (unit 1) (value "IQS231A-00000000-TSR") (footprint "IQS231A-00000000-TSR:SOT95P280X100-6N")
+      (reference "U1") (unit 1) (value "IQS231A-00000000-TSR") (footprint "Sensor_Touch_custom:SOT95P280X100-6N")
     )
   )
 )
