@@ -88,5 +88,8 @@
   (net 0 "")
 
   (gr_rect (start 97.9 84.4) (end 181 118.8) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp 326970e5-0115-4889-9f20-a2efbd4497c8))
+  (gr_text "<<project_name>>\n<<ID>>\n<<version>>\n<<date>>\n<<hash>>\n<<website_link>>" (at 139.6 101) (layer "B.SilkS") (tstamp 85f6d9a2-23ce-4d1a-9f4b-86e5a4af8096)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
 
 )
