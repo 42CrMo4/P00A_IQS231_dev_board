@@ -1,10 +1,15 @@
-Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,STANDARD,PARTREV,MAXIMUM_PACKAGE_HEIGHT,MANUFACTURER
-1,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C3 C4,C_Small,C_0805_2012Metric,4, ,~,,,,
-2,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J1 J2,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,2, ,~,,,,
-3,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J3 J4,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,2, ,~,,,,
-4,"Inductor, small symbol",L_Small,L1,L_Small,L_1008_2520Metric,1, ,~,,,,
-5,"Resistor, small symbol",R_Small,R1 R2,R_Small,R_0805_2012Metric,2, ,~,,,,
-6,,TPS61099YFFT,U1,TPS61099YFFT,BGA6N40P3X2_122X88X62N,1, ,,IPC 7351B,K,0.625mm,Texas Instruments
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,PARTREV,STANDARD,MAXIMUM_PACKAGE_HEIGHT,MANUFACTURER
+1,"Unpolarized capacitor, small symbol",C_Small,C1,2.2pF,C_0805_2012Metric,1, ,~,,,,
+2,"Unpolarized capacitor, small symbol",C_Small,C2 C4,100pF,C_0805_2012Metric,2, ,~,,,,
+3,"Unpolarized capacitor, small symbol",C_Small,C5,2.2uF,C_0805_2012Metric,1, ,~,,,,
+4,"Unpolarized capacitor, small symbol",C_Small,C3,4.7uF,C_0805_2012Metric,1, ,~,,,,
+5,"dual schottky barrier diode, common cathode",BAT54C,D1,BAT54C,SOT-23,1, ,http://www.diodes.com/_files/datasheets/ds11005.pdf,,,,
+6,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_Male,J1,Conn_01x06_Male,PinHeader_1x06_P2.54mm_Vertical,1, ,~,,,,
+7,"Jumper, 2-pole, open",Jumper_2_Open,JP1 JP2,Jumper_2_Open,PinHeader_1x02_P2.54mm_Vertical,2, ,~,,,,
+8,"Resistor, small symbol",R_Small,R1,47ohm,R_0805_2012Metric,1, ,~,,,,
+9,"Resistor, small symbol",R_Small,R2,470ohm,R_0805_2012Metric,1, ,~,,,,
+10,"Resistor, small symbol",R_Small,R3 R4,4.7k,R_0805_2012Metric,2, ,~,,,,
+11,,IQS231A-00000000-TSR,U1,IQS231A-00000000-TSR,SOT95P280X100-6N,1, ,,2.4,IPC-7351B,1mm,AZOTEQ
 
 
 
