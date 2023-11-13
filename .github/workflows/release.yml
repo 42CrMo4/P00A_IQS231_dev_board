@@ -115,6 +115,8 @@ jobs:
 
     - name: Renaming Files
       run: |
+        cp *.kicad_sch ${{ env.ID_prefix }}${{ env.ID }}_${{ github.ref_name }}.kicad_sch
+        cp *.kicad_pcb ${{ env.ID_prefix }}${{ env.ID }}_${{ github.ref_name }}.kicad_pcb
         cd Fabrication_temp
         for file in *; do mv -v ${file} ${{ env.ID_prefix }}${{ env.ID }}_${{ env.project_name }}_${{ github.ref_name }}_${file}; done #https://unix.stackexchange.com/a/389516
 
